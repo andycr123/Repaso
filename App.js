@@ -4,7 +4,7 @@
 var  a; 
 var b = 2; 
 
-consle.log(a); /* Undefinded */
+consle.log(a); /* Undefinded     */
 
 a = 10; 
 
