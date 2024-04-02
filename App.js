@@ -1,3 +1,4 @@
+/*Intermedio*/
 /* 
 Ejercicio #1: Documentgetelementbyid: 
   // Obtener el elemento por su ID
@@ -33,4 +34,49 @@ Ejercicio #4=  querySelectorAll():
     parrafo.innerHTML = "Nuevo Texto " + (index + 1);
   });
 
+*/
+
+/*Medios*/
+/*Ejercicio #1
+function enviarFormulario() {
+    // Obtener los valores de los campos del formulario
+    var nombre = document.getElementById("nombre").value;
+    var email = document.getElementById("email").value;
+    // Simular el envío de datos
+    console.log("Nombre: " + nombre + ", Email: " + email);
+    // Aquí puedes agregar lógica para enviar los datos a un servidor
+  }
+*/
+
+/*Ejercicio #2
+ // Obtener todos los elementos 'li' dentro de 'ul'
+  var listaItems = document.querySelectorAll("#lista li");
+  // Iterar sobre los elementos y añadir clase para resaltarlos
+  listaItems.forEach(function(item) {
+    item.classList.add("resaltado");
+*/
+
+/*Dificiles*/
+/*Ejercicio#1
+ function validarFormulario() {
+    var nombre = document.getElementById("nombre").value;
+    var email = document.getElementById("email").value;
+    
+    if (nombre === "") {
+      alert("Por favor ingresa tu nombre.");
+    } else if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
+      alert("Por favor ingresa un email válido.");
+    } else {
+      alert("Formulario válido. Nombre: " + nombre + ", Email: " + email);
+      // Aquí puedes agregar lógica para enviar los datos a un servidor
+    }
+  }
+*/
+
+/*Ejercicio #2
+ function cambiarEstilos() {
+    var parrafo = document.querySelector("#contenedor p");
+    parrafo.classList.toggle("cambio-color");
+    document.body.classList.toggle("cambio-fondo");
+  }
 */
